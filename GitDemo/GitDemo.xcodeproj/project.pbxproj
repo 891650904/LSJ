@@ -14,6 +14,7 @@
 		BC8524BF1BF320BC009AC858 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8524BE1BF320BC009AC858 /* Images.xcassets */; };
 		BC8524C21BF320BC009AC858 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8524C01BF320BC009AC858 /* LaunchScreen.xib */; };
 		BC8524CE1BF320BC009AC858 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8524CD1BF320BC009AC858 /* GitDemoTests.m */; };
+		BC8524DA1BF3290F009AC858 /* ViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8524D91BF3290F009AC858 /* ViewControllers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BC8524C71BF320BC009AC858 /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8524CC1BF320BC009AC858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC8524CD1BF320BC009AC858 /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		BC8524D81BF3290F009AC858 /* ViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers.h; sourceTree = "<group>"; };
+		BC8524D91BF3290F009AC858 /* ViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		BC8524B01BF320BC009AC858 /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC8524D71BF328F5009AC858 /* a */,
 				BC8524B51BF320BC009AC858 /* AppDelegate.h */,
 				BC8524B61BF320BC009AC858 /* AppDelegate.m */,
 				BC8524B81BF320BC009AC858 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				BC8524CC1BF320BC009AC858 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC8524D71BF328F5009AC858 /* a */ = {
+			isa = PBXGroup;
+			children = (
+				BC8524D81BF3290F009AC858 /* ViewControllers.h */,
+				BC8524D91BF3290F009AC858 /* ViewControllers.m */,
+			);
+			name = a;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				BC8524BA1BF320BC009AC858 /* ViewController.m in Sources */,
 				BC8524B71BF320BC009AC858 /* AppDelegate.m in Sources */,
+				BC8524DA1BF3290F009AC858 /* ViewControllers.m in Sources */,
 				BC8524B41BF320BC009AC858 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +432,7 @@
 				BC8524D31BF320BC009AC858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC8524D41BF320BC009AC858 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				BC8524D61BF320BC009AC858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
